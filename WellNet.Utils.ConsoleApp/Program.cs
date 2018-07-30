@@ -13,7 +13,8 @@ namespace WellNet.Utils.ConsoleApp
         {
             //TestConnMgr();
             //TestAddGuidToFilename();
-            TestFileAssociation();
+            //TestFileAssociation();
+            TestEmail();
         }
 
         private static void TestFileAssociation()
@@ -34,5 +35,17 @@ namespace WellNet.Utils.ConsoleApp
         //    foreach (var key in connMgr.Keys)
         //        Debug.WriteLine(string.Format("{0}: {1}", key, connMgr[key]));
         //}
+
+        private static void EncryptEmail()
+        {
+            TripleDes.EncryptFileToFile(@"\\192.168.11.10\shared\apps\common\resources\emailauth.txt", @"\\192.168.11.10\shared\apps\common\resources\emailauth.dat");
+        }
+
+        private static void TestEmail()
+        {
+            EMailer.Email("Hi There", "davidbalick@gmail.com", "The rain in spain");
+        }
+
+
     }
 }
