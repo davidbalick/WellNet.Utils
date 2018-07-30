@@ -50,6 +50,7 @@
     <Compile Include="QuestionAsker.xaml.cs">
       <DependentUpon>QuestionAsker.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RelayCommand.cs" />
     <Compile Include="TripleDes.cs" />
     <Compile Include="UiLibrary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
