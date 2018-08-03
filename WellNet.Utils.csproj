@@ -55,6 +55,7 @@
     <Compile Include="UiLibrary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EMailer.cs" />
+    <Compile Include="ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="QuestionAsker.xaml">
