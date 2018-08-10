@@ -14,7 +14,8 @@ namespace WellNet.Utils.ConsoleApp
             //TestConnMgr();
             //TestAddGuidToFilename();
             //TestFileAssociation();
-            TestEmail();
+            //TestEmail();
+            //ConnectionManager.CreateInitialConnectionEntryFile();
         }
 
         private static void TestFileAssociation()

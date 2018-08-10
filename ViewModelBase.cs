@@ -21,7 +21,7 @@ namespace WellNet.Utils
         }
         #endregion Propertys
 
-        private void OnPropertyChanged(string propName)
+        public void OnPropertyChanged(string propName)
         {
             if (PropertyChanged == null)
                 return;

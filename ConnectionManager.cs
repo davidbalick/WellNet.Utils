@@ -8,7 +8,6 @@ namespace WellNet.Utils
     public class ConnectionManager : Dictionary<string, string>
     {
         private static string CONNECTION_FILE = @"\\192.168.11.10\Shared\APPS\Common\Resources\Connections.dat";
-        private static string TABLENAME = "ConnectionStrings";
         private static string NAME = "Name";
         private static string CONNSTR = "EncryptedConnectionString";
         private static ConnectionManager _cachedConnectionMgr = null;

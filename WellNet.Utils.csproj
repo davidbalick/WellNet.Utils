@@ -46,6 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionManager.cs" />
+    <Compile Include="DataToFile.cs" />
+    <Compile Include="EnumBindingSourceExtension.cs" />
     <Compile Include="FileExtensionInfo.cs" />
     <Compile Include="QuestionAsker.xaml.cs">
       <DependentUpon>QuestionAsker.xaml</DependentUpon>
